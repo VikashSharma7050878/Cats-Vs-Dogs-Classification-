@@ -1,0 +1,23 @@
+# Ignore all files by default
+*
+
+# Allow important project files
+!.gitignore
+!README.md
+!CatsVsDogs_classification.ipynb
+
+# Ignore Python virtual environment
+Scripts/
+Lib/
+Include/
+pyvenv.cfg
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore dataset (remove this rule if you want to upload it)
+datasets/
